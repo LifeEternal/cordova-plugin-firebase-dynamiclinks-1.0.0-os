@@ -102,6 +102,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <resource-file src="GoogleService-Info.plist" target="./GoogleService-Info.plist" />
 
         <framework src="src/ios/FirebaseDynamicLinks.framework" custom="true" embed="false" />
+
+        <podspec>
+            <config>
+                <source url="https://cdn.cocoapods.org/"/>
+            </config>
+            <pods>
+                <pod name="Firebase/DynamicLinks" spec="~> 6.19.0" />
+            </pods>
+        </podspec>
         
     </platform>
 
