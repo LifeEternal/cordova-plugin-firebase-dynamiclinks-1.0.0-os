@@ -1,4 +1,4 @@
-var exec = require("cordova/exec");
+asdasdsasvar exec = require("cordova/exec");
 var PLUGIN_NAME = "FirebaseDynamicLinks";
 
 module.exports = {
